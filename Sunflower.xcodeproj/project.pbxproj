@@ -15,6 +15,8 @@
 		4AA9B8CB2487DD3900A0E22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AA9B8C92487DD3900A0E22B /* LaunchScreen.storyboard */; };
 		4AA9B8D62487DD3900A0E22B /* SunflowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9B8D52487DD3900A0E22B /* SunflowerTests.swift */; };
 		4AA9B8E12487DD3900A0E22B /* SunflowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9B8E02487DD3900A0E22B /* SunflowerUITests.swift */; };
+		4AA9B8F12487E2BD00A0E22B /* OuterPetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9B8F02487E2BD00A0E22B /* OuterPetalView.swift */; };
+		4AA9B8F32487EA2B00A0E22B /* InnerCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9B8F22487EA2B00A0E22B /* InnerCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		4AA9B8DC2487DD3900A0E22B /* SunflowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunflowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA9B8E02487DD3900A0E22B /* SunflowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunflowerUITests.swift; sourceTree = "<group>"; };
 		4AA9B8E22487DD3900A0E22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA9B8F02487E2BD00A0E22B /* OuterPetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuterPetalView.swift; sourceTree = "<group>"; };
+		4AA9B8F22487EA2B00A0E22B /* InnerCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InnerCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				4AA9B8C92487DD3900A0E22B /* LaunchScreen.storyboard */,
 				4AA9B8CC2487DD3900A0E22B /* Info.plist */,
 				4AA9B8C62487DD3900A0E22B /* Preview Content */,
+				4AA9B8F02487E2BD00A0E22B /* OuterPetalView.swift */,
+				4AA9B8F22487EA2B00A0E22B /* InnerCircleView.swift */,
 			);
 			path = Sunflower;
 			sourceTree = "<group>";
@@ -267,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA9B8F32487EA2B00A0E22B /* InnerCircleView.swift in Sources */,
 				4AA9B8BF2487DD3400A0E22B /* AppDelegate.swift in Sources */,
 				4AA9B8C12487DD3400A0E22B /* SceneDelegate.swift in Sources */,
 				4AA9B8C32487DD3400A0E22B /* ContentView.swift in Sources */,
+				4AA9B8F12487E2BD00A0E22B /* OuterPetalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
